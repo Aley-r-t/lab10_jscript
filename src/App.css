@@ -1,0 +1,202 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App h1 {
+  color: #00aaff;
+  margin-bottom: 20px;
+}
+
+/* Contenedor de los componentes Persona */
+.PersonaContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.Persona {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: left;
+}
+
+.Persona h3 {
+  font-size: 1.3em;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.Persona p {
+  font-size: 1em;
+  color: #b0b0b0;
+  margin: 5px 0;
+}
+/* App.css */
+
+.empleado-list {
+  max-width: 400px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.empleado-row {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.empleado-row:last-child {
+  border-bottom: none;
+}
+
+.empleado-avatar {
+  margin-right: 15px;
+}
+
+.avatar-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.empleado-info h4 {
+  margin: 0;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.empleado-info p {
+  margin: 5px 0 0;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.departamento {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  color: #fff;
+}
+
+.departamento.business {
+  background-color: #0073e6;
+}
+
+.departamento.marketing {
+  background-color: #ff6600;
+}
+
+.departamento.engineering {
+  background-color: #009900;
+}
+.color-manager {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.color-manager h2 {
+  text-align: center;
+  color: #333;
+}
+
+.color-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.color-preview {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.color-input input {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.color-input button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.color-input button:hover {
+  background-color: #0056b3;
+}
+
+.color-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.color-item {
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+}
+
+.color-box {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 10px;
+  border-radius: 4px;
+}
+
+.color-item button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.color-item button:hover {
+  background-color: #cc0000;
+}
+
+
